@@ -1,0 +1,21 @@
+<h1> Todo List con MongoDB y Express </h1>
+
+{{#each tudus}}
+    <div>
+        <p>Titulo: {{title}}  </p>
+        <p>Descripción: {{description}} </p>
+        {{#if completed}}
+            <p>Completada</p>
+        {{else}}
+            <p>Pendiente</p>
+            <form action="/todos/{{_id}}/complete" method="POST">
+                <button type="submit"> Marcar como completado </button>
+            </form>
+        {{/if}}
+        <br>
+        <form action="/todos/{{_id}}/delete" method="POST">
+            <button type="submit"> Eliminar </button>
+        </form>
+        <hr>
+    </div>
+{{/each}}

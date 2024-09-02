@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Comprar leche",
+        "description": "Ir al supermercado y comprar leche",
+        "completed": false
+    },
+    {
+        "title": "Leer un libro",
+        "description": "Leer el libro 'El Gran Gatsby'",
+        "completed": true
+    },
+    {
+        "title": "Hacer ejercicio",
+        "description": "Hacer una rutina de ejercicios de 30 minutos",
+        "completed": false
+    },
+    {
+        "title": "Llamar a mamá",
+        "description": "Hacer una llamada telefónica a mi mamá",
+        "completed": false
+    },
+    {
+        "title": "Preparar presentación",
+        "description": "Preparar diapositivas para la presentación de trabajo",
+        "completed": true
+    },
+    {
+        "title": "Pagar las cuentas",
+        "description": "Pagar las cuentas de electricidad y agua",
+        "completed": false
+    }
+]
