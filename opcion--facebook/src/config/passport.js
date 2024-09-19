@@ -4,8 +4,8 @@ const UsuarioModel = require("../models/usuario.js");
 
 const initializePassport = ( ) => {
     passport.use(new FacebookStrategy({
-        clientID: 1116629166045627,
-        clientSecret: "9a64a0466f59a6c6d672a99a6ac71e3b", 
+        clientID: "tusdatos",
+        clientSecret: "tusdatos", 
         callbackURL: "http://localhost:8080/auth/facebook/callback",
     }, async (accessToken, refreshToken, profile, done) => {
         console.log(profile)

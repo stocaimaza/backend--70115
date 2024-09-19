@@ -82,8 +82,8 @@ const initializePassport = () => {
 
     //Acá desarrollamos la nueva estrategia con GitHub: 
     passport.use("github", new GitHubStrategy({
-        clientID: "Iv23ctzm1m5Ss49FUTsE",
-        clientSecret: "6545919819926c3986ac439d0fa83b36a493f05a",
+        clientID: "tusdatos",
+        clientSecret: "tusdatos",
         callbackURL: "http://localhost:8080/api/sessions/githubcallback"
     }, async (accessToken, refreshToken, profile, done) => {
         //Recomendado! Mostrar el perfil por consola para conocer los datos que me llegan: 
