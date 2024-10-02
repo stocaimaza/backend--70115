@@ -1,0 +1,25 @@
+<h1> Listado de Juguetes </h1>
+
+<ul>
+    {{#each juguetes}}
+        <li> {{this.nombre}} </li>
+    {{/each}}
+</ul>
+
+<h2> Formulario para Crear Juguetes</h2>
+
+<form action="/juguetes" method="POST">
+    <label for="nombre"> Nombre: </label>
+    <input type="text" name="nombre">
+    <br><br>
+
+    <label for="categoria"> Categoria: </label>
+    <input type="text" name="categoria">
+    <br><br>
+
+    <label for="precio"> Precio: </label>
+    <input type="number" name="precio">
+    <br><br>
+
+    <button type="submit"> Enviar Juguete </button>
+</form>
