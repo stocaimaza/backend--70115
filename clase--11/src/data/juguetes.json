@@ -1,0 +1,17 @@
+[
+  {
+    "nombre": "Pistolas Hidrogel",
+    "categoria": "Juegos de Guerra",
+    "precio": 125000000
+  },
+  {
+    "nombre": "Pistolas Nerf",
+    "categoria": "Juegos de Guerra",
+    "precio": 125000000
+  },
+  {
+    "nombre": "Arco y flecha",
+    "categoria": "Juegos de Guerra",
+    "precio": 125000000
+  }
+]
