@@ -1,0 +1,25 @@
+
+<form action="/api/sessions/register" method="POST">
+    <h1>Registro de usuarios</h1>
+    <label for="first_name">Nombre:</label>
+    <input type="text" id="first_name" name="first_name" placeholder="Nombre" required>
+    <br><br>
+
+    <label for="last_name">Apellido:</label>
+    <input type="text" id="last_name" name="last_name" placeholder="Apellido" required>
+    <br><br>
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+    <br><br>
+
+    <label for="age">Edad:</label>
+    <input type="number" id="age" name="age" placeholder="Edad" required min="0">
+    <br><br>
+
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" name="password" placeholder="Contraseña" required>
+    <br><br>
+
+    <button type="submit">Registrarse</button>
+</form>
